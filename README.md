@@ -61,7 +61,6 @@ All raw images included in the repository (inside `Top Down Game Submission Phot
   <img src="Top%20Down%20Game%20Submission%20Photos/22.png" alt="Screenshot 5" width="60%"/>
 </p>
 
-> (If publishing to GitHub Pages or an external README viewer, verify paths & URL encoding for spaces.)
 
 ---
 
@@ -148,17 +147,6 @@ Packages/            Package manifest & lock for reproducible environment
 
 ---
 
-## 8. 🚀 How to Run
-1. Open with Unity Editor version **2021.3.16f1** (LTS series recommended). Opening in a newer LTS should work but verify animation & physics settings.
-2. Open the main menu scene (likely index 1 based on script usage) or directly open `Room1` to begin.
-3. Enter Play Mode.
-4. Move with WASD, aim with mouse, left‑click to shoot. Collect the upgrade pickup to enable the double‑shot.
-
-To build:
-- Go to File → Build Settings → Ensure all scenes (Menu, Controls, Room1, Room2, Room3, Win/Lose) are added in the correct order → Build.
-
----
-
 ## 9. 🔮 Possible Future Improvements
 - Health system (currently instant death on collision) with UI hearts or bar.
 - Enemy variety (ranged, slower tank, fast chaser) & spawn weighting curves.
@@ -173,18 +161,7 @@ To build:
 
 ---
 
-## 10. 🙌 Credits / Assets
-- Code & gameplay design: (Your Name Here – update this line!)
-- Unity 2021.3.16f1 LTS.
-- Any third‑party sprite, font, or SFX assets used (add attributions if applicable).
-
-If you plan to open-source this: add a license (e.g., MIT) and clarify which assets are excluded from redistribution if any.
-
----
-
 ### 🧵 Reflection
 As a second Unity project, the focus was intentionally on mastering the loop of: input → motion/aim → spawn → engage → die/transition, rather than expanding feature scope. The result is a compact sandbox demonstrating reliable integration of core 2D systems and a foundation for more advanced roguelite or action RPG mechanics.
 
 ---
-
-Feel free to open an issue or reach out with suggestions for next steps or refactors.
